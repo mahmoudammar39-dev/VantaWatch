@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>VANTA | Cosmic Skeleton Mechanical Watch</title>
+    <meta
+      name="description"
+      content="A cinematic luxury launch website for the VANTA cosmic skeleton mechanical watch."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <canvas class="particle-field" data-particles aria-hidden="true"></canvas>
+    <div class="cinema-noise" aria-hidden="true"></div>
+
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="VANTA home">
+        <span class="brand-mark" aria-hidden="true">V</span>
+        <span class="brand-word">VANTA</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span aria-hidden="true"></span>
+        <span class="sr-only">Open navigation</span>
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="#darkness">Craft</a>
+        <a href="#dial">Dial</a>
+        <a href="#precision">Precision</a>
+        <a href="#reserve">Reserve</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="smoke-layer" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <p class="eyebrow">Cosmic skeleton mechanical watch</p>
+          <h1 id="hero-title">VANTA</h1>
+          <p>Time. Redefined in titanium and starlight.</p>
+          <div class="hero-actions" aria-label="Featured actions">
+            <a class="button primary" href="#darkness">Enter the watch</a>
+            <a class="button ghost" href="#reserve">Request allocation</a>
+          </div>
+        </div>
+
+        <figure class="watch-hero" data-watch-render>
+          <span class="reflection sweep-one" aria-hidden="true"></span>
+          <span class="reflection sweep-two" aria-hidden="true"></span>
+          <img
+            src="assets/vanta-hero-render.png"
+            alt="VANTA black titanium square skeleton watch with crocodile leather strap and diamond starfield dial."
+          >
+        </figure>
+
+        <div class="hero-meta" aria-label="VANTA highlights">
+          <span>42 mm titanium</span>
+          <span>Sapphire crystal</span>
+          <span>Limited to 100</span>
+        </div>
+
+        <button class="motion-toggle" type="button" data-motion-toggle aria-pressed="false">
+          Pause motion
+        </button>
+      </section>
+
+      <section class="cinematic-section darkness" id="darkness" aria-labelledby="darkness-title">
+        <div class="section-media parallax-layer" data-depth="-0.08" aria-hidden="true">
+          <img src="assets/vanta-hero-render.png" alt="">
+        </div>
+        <div class="section-copy" data-reveal>
+          <p class="eyebrow">Crafted from darkness</p>
+          <h2 id="darkness-title">A black titanium case cut like architecture.</h2>
+          <p>
+            Micro-blasted Grade 5 titanium, a deep DLC finish, and a square silhouette built for
+            shadow, edge, and reflection.
+          </p>
+        </div>
+      </section>
+
+      <section class="cinematic-section dial" id="dial" aria-labelledby="dial-title">
+        <div class="macro-watch parallax-layer" data-depth="0.06" data-reveal>
+          <img src="assets/vanta-hero-render.png" alt="Close view of the VANTA starfield dial.">
+          <span class="diamond d1" aria-hidden="true"></span>
+          <span class="diamond d2" aria-hidden="true"></span>
+          <span class="diamond d3" aria-hidden="true"></span>
+          <span class="diamond d4" aria-hidden="true"></span>
+          <span class="diamond d5" aria-hidden="true"></span>
+        </div>
+        <div class="section-copy right" data-reveal>
+          <p class="eyebrow">Diamond starfield dial</p>
+          <h2 id="dial-title">A night sky suspended over mechanics.</h2>
+          <p>
+            Diamond stars catch the light above an open calibre, turning the dial into a moving
+            constellation.
+          </p>
+        </div>
+      </section>
+
+      <section class="cinematic-section precision" id="precision" aria-labelledby="precision-title">
+        <div class="gear-stage" aria-hidden="true">
+          <span class="gear large"></span>
+          <span class="gear medium"></span>
+          <span class="gear small"></span>
+          <span class="jewel"></span>
+        </div>
+        <div class="section-copy" data-reveal>
+          <p class="eyebrow">Skeletonized precision</p>
+          <h2 id="precision-title">The movement is not hidden. It performs.</h2>
+          <p>
+            Visible bridges, jewel accents, and openwork geometry create a mechanical display with
+            depth and rhythm.
+          </p>
+        </div>
+      </section>
+
+      <section class="cinematic-section architecture" aria-labelledby="architecture-title">
+        <div class="section-copy" data-reveal>
+          <p class="eyebrow">Titanium architecture</p>
+          <h2 id="architecture-title">Layered from crystal to caseback.</h2>
+          <p>
+            Sapphire, bezel, dial, movement, chassis, and caseback separate into a precise stack of
+            engineered shadows.
+          </p>
+        </div>
+
+        <div class="exploded" aria-label="Animated exploded construction of the VANTA watch" data-reveal>
+          <span style="--i: 0">Sapphire crystal</span>
+          <span style="--i: 1">Titanium bezel</span>
+          <span style="--i: 2">Starfield dial</span>
+          <span style="--i: 3">Skeleton movement</span>
+          <span style="--i: 4">Lower chassis</span>
+          <span style="--i: 5">Exhibition caseback</span>
+        </div>
+      </section>
+
+      <section class="cinematic-section limited" aria-labelledby="limited-title">
+        <div class="serial" data-serial data-reveal aria-label="Limited edition serial number">
+          <span data-serial-current>000</span><span>/100</span>
+        </div>
+        <div class="section-copy center" data-reveal>
+          <p class="eyebrow">Limited to 100</p>
+          <h2 id="limited-title">A first edition with a numbered caseback.</h2>
+          <p>Each piece is reserved by allocation and finished as a collector-grade prototype.</p>
+        </div>
+      </section>
+
+      <section class="technical-board" aria-labelledby="technical-title">
+        <div class="board-copy" data-reveal>
+          <p class="eyebrow">Prototype reference</p>
+          <h2 id="technical-title">The original board remains the blueprint.</h2>
+        </div>
+        <img
+          src="assets/vanta-prototype.png"
+          alt="VANTA prototype reference board with specifications, technical views, caseback, and exploded construction."
+          data-reveal
+        >
+      </section>
+
+      <section class="reserve" id="reserve" aria-labelledby="reserve-title">
+        <div class="reserve-copy" data-reveal>
+          <p class="eyebrow">Private allocation</p>
+          <h2 id="reserve-title">Request access.</h2>
+          <p>For collector previews, investor conversations, and early reservations.</p>
+        </div>
+
+        <form class="reserve-form" data-reveal novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="interest">Interest</label>
+            <select id="interest" name="interest" required>
+              <option value="">Select one</option>
+              <option>Collector allocation</option>
+              <option>Investor preview</option>
+              <option>Press inquiry</option>
+            </select>
+          </div>
+          <button class="button primary" type="submit">Submit request</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>VANTA. Time. Redefined.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
